@@ -53,7 +53,12 @@ cart = {
     key: 'allana'
 }
 
-//Type Inference (ts já infere o tipo daquela variável a partir do momento que você dá um valor a ela)
+//Type Inference (ts já infere o tipo daquela variável a partir do momento que você dá um valor a ela, evita redundância)
 let message2 = 'allana'
 message2 = 'jose' //so aceita outras strings depois
 
+
+//ts sabe que eventListener se trata de um evento com o mouse, aí já indica o tipo de evento que será realizado
+window.addEventListener("click", (e) => {
+    console.log(e.target);
+})
