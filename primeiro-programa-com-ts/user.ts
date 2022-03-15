@@ -31,7 +31,10 @@ type PlayerInfo = AccountInfo & CharInfo
 
 const player: PlayerInfo = {
     id: 1234,
-    name: "Allana",
+    name: "Marshmallow",
     nickname: 'allana',
     level: 100
 }
+
+console.log(player.name);
+

@@ -1,19 +1,19 @@
-"use strict";
 // accountInfo
 // charInfo
 // PlayerInfo
-const account = {
+var account = {
     id: 123,
     name: 'Allana',
     email: 'allanaevellynm@gmail.com'
 };
-const char = {
+var char = {
     nickname: 'allanina',
     level: 100
 };
-const player = {
+var player = {
     id: 1234,
     name: "Allana",
     nickname: 'allana',
     level: 100
 };
+console.log(player.name);

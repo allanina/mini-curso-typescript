@@ -13,7 +13,8 @@ const char = {
 };
 const player = {
     id: 1234,
-    name: "Allana",
+    name: "Marshmallow",
     nickname: 'allana',
     level: 100
 };
+console.log(player.name);
